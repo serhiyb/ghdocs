@@ -19,6 +19,11 @@ Deploying files from GitHub requires that you have published your local project 
 11. On each next push to your GitHub repo Octane will automatically build and publish new version of the web app.
 12. There is a way for you to return to previous versions. Just select any inactive deployment and click "Deploy" button.
 
+##GitHub continuous deployments deactivation
+1. [Login to Octane][login-octane] and navigate to Publish tab under your CloudSite details page.
+2. Click "Reset Password" button at top right corner.
+3. Your publishing password will be reset and GitHub deployments will be deactivated.
+
 [setup-git]: https://help.github.com/articles/set-up-git/
 [create-a-repo]: https://help.github.com/articles/create-a-repo/
 [fork-a-repo]: https://help.github.com/articles/fork-a-repo/
