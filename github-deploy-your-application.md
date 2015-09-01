@@ -13,6 +13,11 @@ Deploying files from GitHub requires that you have published your local project 
 4. In the popup click Authorize to connect to GitHub.
 5. New window will be opened and GitHub will ask you to login and grant permissions to Octane access to your private and pulblic repositories.
 6. Once permissions are granted Octane will ask you to pick repository and branch from which deployments will be processed.
+7. To finish configruation click Activate button.
+8. Your page will reload and your latest deployment will appear at the bottom.
+10. To verify that web app is active click "Preivew" button. The browser should navigate you to the web app.
+11. On each next push to your GitHub repo Octane will automatically build and publish new version of the web app.
+12. There is a way for you to return to previous versions. Just select any inactive deployment and click "Deploy" button.
 
 [setup-git]: https://help.github.com/articles/set-up-git/
 [create-a-repo]: https://help.github.com/articles/create-a-repo/
